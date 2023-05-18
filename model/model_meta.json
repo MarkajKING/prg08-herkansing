@@ -1,0 +1,31 @@
+{
+  "inputUnits": [
+    3
+  ],
+  "outputUnits": 1,
+  "inputs": {
+    "carAge": {
+      "dtype": "number",
+      "min": 1,
+      "max": 39.95
+    },
+    "kmDriven": {
+      "dtype": "number",
+      "min": 14738.7356138887,
+      "max": 239619.058017379
+    },
+    "repairs": {
+      "dtype": "number",
+      "min": 0,
+      "max": 25
+    }
+  },
+  "outputs": {
+    "price": {
+      "dtype": "number",
+      "min": -1543,
+      "max": 9864
+    }
+  },
+  "isNormalized": true
+}
